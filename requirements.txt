@@ -1,0 +1,85 @@
+# ============================================================================
+# UK Financial Early Warning System - Requirements
+# ============================================================================
+# Python 3.8+ required
+# Install with: pip install -r requirements.txt
+# ============================================================================
+
+# Core Data Science Libraries
+# ----------------------------------------------------------------------------
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Machine Learning
+# ----------------------------------------------------------------------------
+scikit-learn>=0.24.0
+imbalanced-learn>=0.8.0
+
+# XGBoost (Best performing model)
+# ----------------------------------------------------------------------------
+xgboost>=1.4.0
+
+# Deep Learning (Optional - for LSTM model)
+# ----------------------------------------------------------------------------
+# Uncomment if you want to use LSTM model
+tensorflow>=2.6.0,<2.16.0  # Compatible with most systems
+# tensorflow-gpu>=2.6.0  # If you have NVIDIA GPU
+
+# Visualization
+# ----------------------------------------------------------------------------
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Natural Language Processing
+# ----------------------------------------------------------------------------
+textblob>=0.15.0
+nltk>=3.6
+
+# Model Interpretation (Optional but recommended)
+# ----------------------------------------------------------------------------
+shap>=0.40.0
+
+# Data Handling
+# ----------------------------------------------------------------------------
+openpyxl>=3.0.0  # For Excel file support
+xlrd>=2.0.0      # For older Excel files
+
+# Utilities
+# ----------------------------------------------------------------------------
+python-dateutil>=2.8.0
+pytz>=2021.1
+
+# Progress bars (Optional)
+# ----------------------------------------------------------------------------
+tqdm>=4.62.0
+
+# Statistical Analysis
+# ----------------------------------------------------------------------------
+scipy>=1.7.0
+statsmodels>=0.12.0
+
+# ============================================================================
+# Development Dependencies (Optional)
+# ============================================================================
+# Uncomment for development/testing
+
+# jupyter>=1.0.0
+# ipython>=7.26.0
+# pytest>=6.2.0
+# black>=21.6b0
+# flake8>=3.9.0
+# pylint>=2.9.0
+
+# ============================================================================
+# Version Notes
+# ============================================================================
+# Last updated: April 2026
+# Tested on: Python 3.8, 3.9, 3.10, 3.11
+# 
+# Installation:
+#   pip install -r requirements.txt
+#
+# For minimal installation (without optional packages):
+#   pip install pandas numpy scikit-learn xgboost matplotlib seaborn imbalanced-learn textblob
+#
+# ============================================================================

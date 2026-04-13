@@ -1,0 +1,280 @@
+# UK Financial EWS - Git Ignore File
+
+# ============================================================================
+# DATA FILES - DO NOT COMMIT LARGE DATASETS
+# ============================================================================
+# Raw data files
+*.csv
+!sample_data.csv
+
+# Processed data
+all-data.csv
+ews_processed_data.csv
+ml_ready_dataset.csv
+
+# Market data
+ftse.csv
+ftse_cleaned.csv
+gold.csv
+gold_cleaned.csv
+silver.csv
+silver_cleaned.csv
+cnbc_headlines.csv
+
+# ============================================================================
+# GENERATED REPORTS & OUTPUTS
+# ============================================================================
+# Text reports
+*.txt
+ews_model_report.txt
+feature_summary.txt
+COMPLETION_REPORT.md
+
+# Presentation files
+PRESENTATION_GUIDE.md
+*.pptx
+*.ppt
+*.pdf
+
+# Generated images/plots
+results/*.png
+results/*.jpg
+results/*.svg
+*.png
+*.jpg
+!docs/images/*.png
+!docs/images/*.jpg
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# MACHINE LEARNING MODELS
+# ============================================================================
+# Trained models
+models/*.pkl
+models/*.h5
+models/*.joblib
+models/*.sav
+*.pkl
+*.h5
+*.joblib
+*.sav
+
+# TensorFlow
+*.pb
+*.pbtxt
+*.ckpt.*
+checkpoint
+
+# ============================================================================
+# IDEs & EDITORS
+# ============================================================================
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# OPERATING SYSTEM
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================================
+# LOGS & TEMPORARY FILES
+# ============================================================================
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# ============================================================================
+# PROJECT SPECIFIC
+# ============================================================================
+# Presentation generation files (not needed in repo)
+create_presentation.py
+create_presentation_visuals.py
+generate_pdf_report.py
+comprehensive_project_report.py
+
+# Personal notes
+NOTES.md
+TODO.md
+personal_notes/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# API keys and credentials
+.env
+.env.local
+credentials.json
+config.ini
+secrets.*
+
+# ============================================================================
+# KEEP THESE FILES (documentation exceptions)
+# ============================================================================
+# Keep documentation
+!docs/**
+!README.md
+!LICENSE
+!requirements.txt
+!FEATURE_EXTRACTION_README.md
+!PROJECT_SUMMARY.md
+
+# Keep example notebooks
+!notebooks/*.ipynb
+
+# Keep sample data (if small)
+!data/sample_data.csv
