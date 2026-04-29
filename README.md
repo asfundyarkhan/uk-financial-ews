@@ -435,9 +435,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Attribution
 If you use this project in your research or work, please cite:
 ```
-[Your Name] (2026). UK Financial Early Warning System. 
-Final Year Project, [Your University]. 
-https://github.com/YOUR_USERNAME/uk-financial-ews
+Asfund Yar Khan (2026). UK Financial Early Warning System. 
+Final Year Project, University of Hertfordshire. 
+https://github.com/asfundyarkhan/uk-financial-ews
 ```
 
 ---
