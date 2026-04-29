@@ -444,8 +444,8 @@ https://github.com/asfundyarkhan/uk-financial-ews
 
 ## 🙏 Acknowledgments
 
-- **Supervisor**: [Supervisor Name] for guidance and feedback
-- **University**: [Your University] for providing resources
+- **Supervisor**: John Evans for guidance and feedback
+- **University**: University of Hertfordshire for providing resources
 - **Data Providers**: Yahoo Finance, CNBC for financial data
 - **Open Source Community**: Scikit-learn, XGBoost, and Python developers
 
