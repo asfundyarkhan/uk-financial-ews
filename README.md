@@ -381,10 +381,10 @@ uk-financial-ews/
 ## 🎓 Academic Context
 
 ### Final Year Project
-- **Institution**: [Your University Name]
-- **Program**: [Your Degree Program]
+- **Institution**: University of hertfordshire
+- **Program**: Data Science
 - **Academic Year**: 2025-2026
-- **Supervisor**: [Supervisor Name]
+- **Supervisor**: Jhon Evan
 
 ### Course Alignment
 This project demonstrates:
@@ -421,10 +421,10 @@ For detailed project documentation, see:
 
 ## 📧 Contact
 
-**Author**: [Your Name]  
-**Email**: [your.email@university.ac.uk]  
-**GitHub**: [@YourGitHubUsername](https://github.com/YourGitHubUsername)  
-**LinkedIn**: [Your LinkedIn Profile]
+**Author**: Asfund Yar Khan  
+**Email**: asfundyar22@gmail.com  
+**GitHub**: https://github.com/asfundyarkhan/uk-financial-ews  
+**LinkedIn**: https://www.linkedin.com/in/asfund-khan-039997222/
 
 ---
 
